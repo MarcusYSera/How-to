@@ -13,3 +13,7 @@ NodeJS through HomeBrew
 MySQL through HomeBrew
 
 PostGres through HomeBrew
+
+Vue 3 w/ cli
+
+Python 3 w/ version control
