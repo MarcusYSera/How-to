@@ -4,10 +4,12 @@
 
 [Medium Article on Vue.js, Nginx, SSL on Ubuntu](https://medium.com/@kornchotpitakkul/deploy-a-node-js-and-vue-js-with-nginx-ssl-on-ubuntu-465f31216dc9)
 
-sudo apt-get update && sudo apt-get -y upgrade
+`sudo apt-get update && sudo apt-get -y upgrade`
 
+```
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt-get install -y nodejs
+```
 
 clone directory to /home folder
 
@@ -17,7 +19,7 @@ allow nginx access
 
 `sudo chmod g+x /home/FOLDER`
 
-git clone https://github.com/MarcusYSera/vue-recipe-app.git
+`git clone https://github.com/MarcusYSera/vue-recipe-app.git`
 
 install all node dependencies, then build (ensure build runs locally with serve -s dist)
 
@@ -27,7 +29,7 @@ pm2- necessary when deploying the api, ie express-postgres api
 
 nginx server set up:
 
-sudo vi /etc/nginx/sites-available/vue
+`sudo vi /etc/nginx/sites-available/vue`
 
 ```
 server {

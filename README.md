@@ -6,6 +6,8 @@
 
 [Access Ubuntu W/ SSH](https://github.com/MarcusYSera/How-to/blob/main/accessUbuntuWithSSH.md)
 
+[AWS EC2 Ubuntu 20.04 Deployment(VueJS)](https://github.com/MarcusYSera/How-to/blob/main/awsNodeDeployDoc.md)
+
 HomeBrew
 
 NodeJS through HomeBrew
